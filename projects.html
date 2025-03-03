@@ -16,14 +16,23 @@
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact Me</a>
                 </li>
+                <li>
+                    <img
+                        id="modeToggle"
+                        class="icon color-icon"
+                        src="./theme_dark.png"
+                        src-light="./theme_light.png"
+                        src-dark="./theme_dark.png"
+                        alt="the theme of the website"
+                    />
+                </li>
             </ul>
         </nav>
     </header>
     <section class="video-section">
         <div class="videoBackground">
-            <video autoplay muted loop playsinline aria-hidden="true">
-                <source src="videoOverlayPersonalPor.mp4" type="video/mp4">
-                Your browser does not support the video tag.
+            <video id="backgroundVideo" autoplay muted loop playsinline aria-hidden="true">
+                <source id="videoSource" src="videoOverlayPersonalPor.mp4" type="video/mp4">
             </video>
         </div>
         <section class="video-overlay">
@@ -53,4 +62,5 @@
        
         
     </main>
+<script src="./script.js"></script>
 </body>
